@@ -17,8 +17,57 @@
 }
 
 #hello-world-txt {
-    text-align: center;
     color: gray;
+    padding-top: 7%;
+    background-color: black;
+    padding-bottom: 7%;
+    top: 10px;
+    position: relative;
+}
+
+#main-content {
+    text-align: center;
+}
+
+#socials {
+    color: rgb(150, 7, 7);
+}
+
+#projects {
+    color: rgb(150, 7, 7);
+}
+
+#socials-icons {
+    display: inline;
+}
+
+.card {
+    width: 15%;
+    height: 130%;
+    background-color: rgb(51, 54, 70);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.card h2 {
+    font-style: italic;
+}
+
+#projects-cards {
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: 35px
+}
+
+.card button {
+    background-color: snow;
+    border: 0px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px;
 }
 
 .inconsolata {
